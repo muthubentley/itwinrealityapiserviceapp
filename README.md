@@ -1,11 +1,11 @@
-"# itwinrealityapiserviceapp" 
+# itwinrealityapiserviceapp
 
 Sample web application to upload data, run reality capture jobs (Analysis, Conversion and Modeling) and display the productions. This app follows iTwin agent authentication (token based) workflow.
 Hence the below folder structure:
 tokenserver - Token server to get the token to access iTwin API
 webapp - Web based react app that interacts with iTwin reality capture APIs
 
-# ***************************token server setup***************************
+# *********************token server setup*********************
 ## Environment Variables
 
 Prior to running the app, Copy .env_template and create .env file
@@ -31,9 +31,9 @@ CLIENT_SECRET=""
 ## Run the app:
 ### `npm run start`
 
-# *******************************************************************
+# ************************************************************
 
-# ***************************web app setup***************************
+# *********************web app setup**************************
 ## Environment Variables
 
 Prior to running the app, Copy .env_template and create .env file
@@ -69,5 +69,5 @@ IMJS_ITWIN_ID = ""
 ## Run the app:
 ### `npm run start`
 
-# *******************************************************************
+# ************************************************************
 
